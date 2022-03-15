@@ -7,3 +7,5 @@ while [ $count -gt 10 ]
 do
   echo "your number is $a"
   echo "Your second number is $b"
+done
+
