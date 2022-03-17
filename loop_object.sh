@@ -5,7 +5,6 @@ sleep 1
 echo "Resolving the issue"
 echo processing........
 
-network=wireless
 
 i=0
 
@@ -14,7 +13,7 @@ while [ $i -lt 100 ]
 do
 
 	i=$((i + 1))
-echo "Solving network issue for "$network  $i"%"
+echo "Solving network issue for "Wireless  $i"%"
 
 sleep 0.1
 
