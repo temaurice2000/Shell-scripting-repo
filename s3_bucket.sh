@@ -24,4 +24,4 @@ if ! grep aws_access_key_id ~/.aws/config; then
 
    fi
 fi
-aws s3api  create-bucket --bucket $first_name-$last_name-$year_of_birth-bucket --create-bucket-configuration LocationConstrain=$region
+aws s3api  create-bucket --bucket $first_name-$last_name-$year_of_birth-bucket --create-bucket-configuration LocationConstraint=$region
