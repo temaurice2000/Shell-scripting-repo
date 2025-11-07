@@ -7,3 +7,5 @@ echo "What is your age?"
 
 read age
 
+
+echo -e "\n Your age is $age"
