@@ -7,5 +7,12 @@ echo "What is your age?"
 
 read age
 
+echo "What is your name?"
 
-echo -e "\n Your age is $age"
+read name 
+
+
+echo -e "\n Yourname is $name and your  age is $age"
+
+
+
